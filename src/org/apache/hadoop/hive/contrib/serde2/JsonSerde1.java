@@ -68,6 +68,9 @@ public class JsonSerde1 implements SerDe {
 		return this.rowOI;
 	}
 
+	/**
+	 * 反序列化
+	 */
 	public Object deserialize(Writable blob) throws SerDeException {
 		Text rowText = (Text) blob;
 		LOG.debug("Deserialize row: " + rowText.toString());
