@@ -15,6 +15,8 @@ import org.junit.Test;
 //boolean	false
 
 public class TestDefault {
+	boolean boo;
+	
 	byte b;
 	String s;
 	char c;
@@ -26,6 +28,7 @@ public class TestDefault {
 		System.out.println(s);
 		System.out.println(c);
 		System.out.println(t + "hh");
+		System.out.println(boo);
 	}
 	
 	@Test

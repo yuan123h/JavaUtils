@@ -31,4 +31,11 @@ public class TestByte {
 	public void testInit(){
 		System.out.println(m);
 	}
+	
+	@Test
+	public void test1() {
+		System.out.println("~".getBytes()[0]);
+		byte b = 126;
+		System.out.println((char)b);
+	}
 }
