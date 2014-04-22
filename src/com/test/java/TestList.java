@@ -1,5 +1,6 @@
 package com.test.java;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -30,7 +31,14 @@ public class TestList {
 			System.out.println(list.get(i));
 		}
 		
-		
 	}
+	
+	@Test
+	public void test() {
+		List<?> list = new ArrayList<Integer>();
+		int i = 5;
+		//list.add(1,i);
+	}
+	
 }
  

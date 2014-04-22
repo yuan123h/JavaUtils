@@ -17,7 +17,7 @@ public class TestDouble {
 	@Test
 	public void testDivide1() {
 		DecimalFormat df = new DecimalFormat("#.00");
-		System.out.println(df.format(10 / 3.0));
+		System.out.println(df.format((float)10 / 3));
 	}
 
 	@Test
