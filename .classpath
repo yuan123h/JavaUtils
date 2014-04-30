@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="pattern"/>
 	<classpathentry kind="src" path="jvm"/>
 	<classpathentry kind="src" path="log"/>
+	<classpathentry kind="src" path="guava"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
@@ -31,7 +32,7 @@
 	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.5.6.jar"/>
 	<classpathentry kind="lib" path="lib/zookeeper-3.4.5.jar"/>
 	<classpathentry kind="lib" path="lib/google/google-common.jar"/>
-	<classpathentry kind="lib" path="lib/google/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/google/guava-14.0.1.jar" sourcepath="C:/Users/yuanhuan/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/derby/derby.jar"/>
 	<classpathentry kind="lib" path="lib/derby/derbytools.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
