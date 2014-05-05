@@ -5,15 +5,16 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
-
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
+
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 public class MulThread {
 	public static void main(String[] args) throws InterruptedException,
@@ -63,6 +64,9 @@ public class MulThread {
 				.setNameFormat("demon").setDaemon(true).build());
 		Thread featch = new Thread();
 		readPool.execute(featch);
+		
+//		Executor e =  Executors.newFixedThreadPool(5);
+//		e.execute(featch);
 	}
 
 }
